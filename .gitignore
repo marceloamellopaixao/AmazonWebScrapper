@@ -1,0 +1,31 @@
+# node_modules e bun_modules
+**/node_modules/
+**/bun.lockb
+**/bun_modules/
+
+# pastas de build (Vite e Bun)
+**/dist/
+**/build/
+
+# arquivos de log
+*.log
+
+# arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
+# arquivos do VSCode e IDEs
+.vscode/
+.idea/
+
+# arquivos de ambiente
+.env
+.env.local
+
+# arquivos de cache
+.cache/
+npm-debug.log*
+bun-debug.log*
+
+# histórico do vite
+frontend/.vite/
