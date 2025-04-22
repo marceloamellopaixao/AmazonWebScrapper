@@ -112,28 +112,16 @@ Para facilitar o setup completo do projeto em ambientes Windows com PowerShell, 
 
 ### 📂 Como Usar
 
-1. Salve o script como `Start-Project.ps1` na raiz do projeto
-2. Execute como administrador:
-   - Clique com o botão direito no arquivo
-   - Selecione "Executar com PowerShell"
-   - Se aparecer aviso de segurança, digite `R` para executar uma vez
+1. Verifique se o arquivo `Start-Project.bat` está na raiz do projeto
+2. Execute com duplo clique e pronto.
 
 ### ✅ Funcionalidades do Script
 
-- **Instalação Automática:** Node.js, npm, Bun
+- **Instalação Automática:** Node.js (Manual), npm, Bun
 - **Configuração Automática:** dependências backend e frontend
 - **Inicialização:** servidores backend e frontend + browser
 - **Mensagens amigáveis:** com cores, instruções e progresso
 - **Tratamento de erros:** com verificação etapa a etapa
-
-### 📁 Versão Simplificada em Batch (.bat)
-
-Para quem prefere um `.bat` simples:
-
-- Instala Node.js e Bun se necessário
-- Instala as dependências
-- Inicia backend e frontend
-- Abre o navegador
 
 ---
 
